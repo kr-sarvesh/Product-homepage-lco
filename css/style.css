@@ -130,8 +130,8 @@ nav .icons .icon:hover {
 }
 
 .headphone-div img {
-  width: 500px;
-  height: 500px;
+  width: 450px;
+  height: 450px;
 }
 
 .discount-contents {
@@ -152,7 +152,7 @@ nav .icons .icon:hover {
 
 .right-section .action-btn {
   cursor: pointer;
-  padding: 10px 30px;
+  padding: 15px 30px;
   color: white;
   border: transparent;
   border-radius: 25px;
@@ -167,7 +167,7 @@ nav .icons .icon:hover {
   display: flex;
   align-items: center;
   flex-direction: start;
-  margin-top: -105px;
+  margin-top: -150px;
 }
 
 .dots .yellow-dot {
@@ -176,7 +176,7 @@ nav .icons .icon:hover {
   border-radius: 25px;
   cursor: pointer;
   background-color: #f7cd2e;
-  margin-right: 20px;
+  margin-right: 25px;
 }
 .dots .tomato-dot {
   height: 25px;
