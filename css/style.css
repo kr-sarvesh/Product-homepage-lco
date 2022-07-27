@@ -2,15 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins';
 }
 
+body {
+  font-family: 'Poppins';
+}
 .container {
-  margin: 20px 20px;
+  margin: 20px 50px;
 }
 
 nav {
-  border: 1px solid black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -63,8 +64,7 @@ nav .icons .icon:hover {
 }
 
 .intro-section .left-section {
-  margin-top: 100px;
-  border: 3px solid black;
+  margin-top: 80px;
 }
 .intro-section h3 {
   display: flex;
@@ -86,7 +86,6 @@ nav .icons .icon:hover {
 
 .sub-headlines h5 > img {
   background-color: red;
-  border: 1px solid black;
   border-radius: 50px;
   height: 60px;
   cursor: pointer;
@@ -100,7 +99,8 @@ nav .icons .icon:hover {
 }
 .left-section .text {
   color: red;
-  margin: 35px 0;
+  font-size: 15px;
+  margin: 35px auto;
 }
 .action-btns {
   display: flex;
@@ -117,11 +117,78 @@ nav .icons .icon:hover {
   cursor: pointer;
 }
 
+.right-section {
+  display: flex;
+  flex-direction: column;
+}
+.headphone-div {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  margin-right: 100px;
+}
+
+.headphone-div img {
+  width: 500px;
+  height: 500px;
+}
+
+.discount-contents {
+  display: flex;
+  transform: translate(-30px, -230px);
+}
+.discount-contents img {
+  width: 145px;
+}
+
+.discount-contents .discount-txt {
+  color: white;
+  z-index: 1;
+  margin-left: 35px;
+  margin-top: 35px;
+  position: absolute;
+}
+
 .right-section .action-btn {
-  background-color: red;
   cursor: pointer;
   padding: 10px 30px;
   color: white;
   border: transparent;
   border-radius: 25px;
+  background-color: red;
+  margin: 80px 180px;
+}
+.dots {
+  width: max-width;
+  height: 50px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: start;
+  margin-top: -105px;
+}
+
+.dots .yellow-dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: #f7cd2e;
+  margin-right: 20px;
+}
+.dots .tomato-dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 25px;
+  background-color: #b9345a;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.dots .black-dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 25px;
+  background-color: #0d0d0d;
+  margin-right: 80px;
+  cursor: pointer;
 }
