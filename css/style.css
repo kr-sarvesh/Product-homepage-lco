@@ -84,10 +84,11 @@ nav .icons .icon:hover {
   margin-bottom: 20px;
 }
 
-.sub-headlines h5 > img {
+.sub-headlines .sub-headline img {
   background-color: red;
   border-radius: 50px;
-  height: 60px;
+  height: 25px;
+  width: 25px;
   cursor: pointer;
 }
 .sub-headlines .sub-headline {
@@ -181,7 +182,7 @@ nav .icons .icon:hover {
   height: 25px;
   width: 25px;
   border-radius: 25px;
-  background-color: #b9345a;
+  background-color: red;
   cursor: pointer;
   margin-right: 20px;
 }
