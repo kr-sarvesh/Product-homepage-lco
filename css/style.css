@@ -6,10 +6,13 @@
 
 body {
   font-family: 'Poppins';
+  height: 100vh;
 }
 .container {
   margin: 20px 50px;
 }
+
+/* ================ Nav section starts from here  ================ */
 
 nav {
   display: flex;
@@ -58,9 +61,12 @@ nav .icons .icon:hover {
   border-bottom: 3px solid red;
 }
 
+/* ================ Intro section =============== */
+
 .intro-section {
   display: flex;
   justify-content: space-between;
+  gap: 40px;
 }
 
 .intro-section .left-section {
@@ -75,11 +81,11 @@ nav .icons .icon:hover {
 .intro-section .left-section img {
   width: 60px;
   margin-left: 20px;
-  text-align: center;
 }
 
 .left-section h1 {
   font-size: 70px;
+  font-weight: 800;
   margin-top: 5px;
   margin-bottom: 20px;
 }
@@ -126,6 +132,7 @@ nav .icons .icon:hover {
   display: flex;
   flex-direction: column-reverse;
   justify-content: center;
+  align-items: center;
   margin-right: 100px;
 }
 
@@ -193,4 +200,61 @@ nav .icons .icon:hover {
   background-color: #0d0d0d;
   margin-right: 80px;
   cursor: pointer;
+}
+
+/* =========== Tablets and smaller ========= */
+
+@media (max-width: 800px) {
+  nav {
+    display: grid;
+    padding: 0.5rem 8rem;
+  }
+  nav .nav-items .nav-item {
+    font-size: 0.8rem;
+  }
+  .intro-section {
+    display: grid;
+  }
+
+  .intro-section .left-section {
+    margin-top: 0.3rem;
+    text-align: center;
+  }
+
+  .left-section .text {
+    font-size: 0.8rem;
+    padding: 0 0.5rem;
+  }
+  .headphone-div img {
+    margin-left: 2.5rem;
+  }
+  .discount-contents {
+    position: relative;
+    left: 2rem;
+  }
+}
+
+/* ============= Smartphones ==================== */
+
+@media (max-width: 500px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+  }
+
+  nav .icons {
+    display: flex;
+  }
+  nav .nav-items .nav-item {
+    font-size: 0.7rem;
+  }
+}
+.left-section h3 {
+  padding: 0.3rem 9rem;
+}
+.right-section .action-btn {
+  position: relative;
+  right: 170px;
 }
